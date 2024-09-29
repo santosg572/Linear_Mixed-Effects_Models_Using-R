@@ -1,4 +1,4 @@
-load('./nlmeU/data/armd0.rda')
+library(nlmeU)
 
 print(dim(armd0))
 

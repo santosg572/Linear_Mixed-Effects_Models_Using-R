@@ -1,4 +1,4 @@
-load('./nlmeU/data/armd.wide.rda')
+library(nlmeU)
 
 print(str(armd.wide))
 
@@ -10,4 +10,5 @@ print(facs)
 
 print(facs[facs == TRUE])
 
+print(names(facs[facs == TRUE]))
 

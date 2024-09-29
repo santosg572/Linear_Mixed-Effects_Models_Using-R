@@ -1,14 +1,13 @@
-armd240.data <- read.csv('./nlmeU/inst/csvData/armd240.data.csv', 
-header=TRUE)
+library(nlmeU)
 
-print(dim(armd240.data))
+print(dim(armd.wide))
 
-print(names(armd240.data))
+print(names(armd.wide))
 
-print(unique(sapply(armd240.data, class)))
+print(unique(sapply(armd.wide, class)))
 
-print(str(armd240.data))
+print(str(armd.wide))
 
 #names(armd240.data) <- abbreviate(nms)
 
-print(head(armd240.data,3))
+print(head(armd.wide,3))
